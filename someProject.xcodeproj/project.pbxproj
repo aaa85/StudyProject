@@ -19,6 +19,7 @@
 		5B0B29C617401D9000C6D78C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B29C517401D9000C6D78C /* ViewController.m */; };
 		5B0B29C917401D9000C6D78C /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B0B29C717401D9000C6D78C /* ViewController_iPhone.xib */; };
 		5B0B29CC17401D9000C6D78C /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B0B29CA17401D9000C6D78C /* ViewController_iPad.xib */; };
+		5B0B29D3174030D700C6D78C /* cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5B0B29D2174030D700C6D78C /* cat.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		5B0B29C517401D9000C6D78C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B0B29C817401D9000C6D78C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		5B0B29CB17401D9000C6D78C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		5B0B29D2174030D700C6D78C /* cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				5B0B29C517401D9000C6D78C /* ViewController.m */,
 				5B0B29C717401D9000C6D78C /* ViewController_iPhone.xib */,
 				5B0B29CA17401D9000C6D78C /* ViewController_iPad.xib */,
+				5B0B29D4174030DB00C6D78C /* Images */,
 				5B0B29B317401D9000C6D78C /* Supporting Files */,
 			);
 			path = someProject;
@@ -108,6 +111,14 @@
 				5B0B29C217401D9000C6D78C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B0B29D4174030DB00C6D78C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5B0B29D2174030D700C6D78C /* cat.jpeg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 				5B0B29C317401D9000C6D78C /* Default-568h@2x.png in Resources */,
 				5B0B29C917401D9000C6D78C /* ViewController_iPhone.xib in Resources */,
 				5B0B29CC17401D9000C6D78C /* ViewController_iPad.xib in Resources */,
+				5B0B29D3174030D700C6D78C /* cat.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +324,7 @@
 				5B0B29D117401D9000C6D78C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
