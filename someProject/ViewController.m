@@ -18,20 +18,8 @@ UITableViewDelegate>
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 - (void)didReceiveButtonAction {
-    NSLog(@"button was pressed");
     [self.catImage setHidden:![self.catImage isHidden]];
 }
 
