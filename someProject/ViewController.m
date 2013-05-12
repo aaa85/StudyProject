@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (strong, nonatomic) IBOutlet UIImageView *catImage;
+
 @end
 
 @implementation ViewController
@@ -28,6 +30,15 @@
 
 - (void)didReceiveButtonAction {
     NSLog(@"button was pressed");
+    [self.catImage setHidden:![self.catImage isHidden]];
 }
+
+
+- (IBAction)buttonClick:(id)sender {
+    [self didReceiveButtonAction];
+}
+
+
+
 
 @end
