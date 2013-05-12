@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+<UITableViewDataSource,
+UITableViewDelegate>
 
 @property (strong, nonatomic) IBOutlet UIImageView *catImage;
 
