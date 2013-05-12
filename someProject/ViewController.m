@@ -30,4 +30,8 @@
     NSLog(@"button was pressed");
 }
 
+
+- (IBAction)buttonClick:(id)sender {
+    [self didReceiveButtonAction];
+}
 @end
