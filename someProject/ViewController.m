@@ -20,7 +20,7 @@ UITableViewDelegate>
 
 
 - (void)didReceiveButtonAction {
-    [self.catImage setHidden:![self.catImage isHidden]];
+    self.catImage.hidden = !self.catImage.hidden;
 }
 
 
